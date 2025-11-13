@@ -8,8 +8,8 @@
 
 /* ---------- PAGE ---------- */
 body {
-  background: #0f0f0f;
-  color: #ffffff;
+  background: #f2f2f2;           /* light background */
+  color: #000000;                /* dark text */
   min-height: 100vh;
   padding: 20px 10px;
   display: flex;
@@ -31,17 +31,17 @@ header fieldset {
 
 header h1 {
   font-size: 2rem;
-  color: #00ffcc;
+  color: #00bfa6;               /* lighter teal */
 }
 
 h2 {
   padding: 10px;
-  color: #ffffff;
+  color: #000000;               /* dark text */
 }
 
 header p {
   font-size: 1.2rem;
-  color: #bbbbbb;
+  color: #555555;               /* softer gray */
 }
 
 /* ---------- NAVBAR (FULL WIDTH) ---------- */
@@ -57,7 +57,7 @@ nav {
   max-width: 1000px;
   list-style: none;
   display: flex;
-  background: #222;
+  background: #dddddd;           /* light nav background */
   border-radius: 12px;   
   overflow: hidden;
 }
@@ -70,19 +70,19 @@ nav {
   display: block;
   text-align: center;
   padding: 14px 0;
-  color: #fff;
+  color: #000000;               /* dark nav text */
   text-decoration: none;
   font-size: 1rem;
   transition: 0.2s;
 }
 
 #nav_bar a:hover {
-  background: #333;
+  background: #cccccc;          /* lighter hover */
 }
 
 #nav_bar a.active {
-  background: #00ffcc;
-  color: #000;
+  background: #00bfa6;          /* light theme active */
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -97,20 +97,20 @@ nav {
   padding: 10px 18px;
   border: none;
   border-radius: 6px;
-  background: #00ffcc;
-  color: #000;
+  background: #00bfa6;           /* teal */
+  color: #ffffff;
   font-weight: bold;
   cursor: pointer;
 }
 
 #task-controls button:hover {
-  background: #00d9ad;
+  background: #009e8b;
 }
 
 /* ---------- ADD TASK FORM ---------- */
 #task-form {
   width: 320px;
-  background: #1a1a1a;
+  background: #ffffff;           /* white card */
   padding: 15px;
   border-radius: 8px;
   margin-top: 15px;
@@ -121,14 +121,14 @@ nav {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
-  background: #bbbbbb;
-  border: 1px solid #333;
+  background: #eeeeee;           /* light input */
+  border: 1px solid #aaaaaa;
   border-radius: 6px;
   color: #000000;
 }
 
 #save-task-btn {
-  background: #00c8ff;
+  background: #00bfa6;
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
@@ -150,7 +150,7 @@ nav {
   width: 100%;
   max-width: 450px;
   margin-top: 25px;
-  background: #1a1a1a;
+  background: #ffffff;           /* white list */
   border-radius: 10px;
   overflow: hidden;
 }
@@ -160,17 +160,17 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #cccccc;
 }
 
 #todo-list li:hover {
-  background: #222;
+  background: #f1f1f1;
 }
 
 /* checkbox */
 #todo-list input[type="checkbox"] {
   transform: scale(1.3);
-  accent-color: #00ffcc;
+  accent-color: #00bfa6;
   margin-right: 10px;
 }
 
@@ -178,12 +178,13 @@ nav {
 #todo-list span {
   flex: 1;
   margin-left: 8px;
+  color: #000000;
 }
 
 /* completed */
 #todo-list input[type="checkbox"]:checked + span {
   text-decoration: line-through;
-  color: #888;
+  color: #777;
 }
 
 /* Edit button (first button) */
@@ -191,13 +192,10 @@ nav {
   border: none;
   padding: 6px 10px;
   border-radius: 6px;
-  background: #00c8ff;
+  background: #00c8ff;          /* blue */
 }
 
 #todo-list li button:first-of-type:hover {
-  border: none;
-  padding: 6px 10px;
-  border-radius: 6px;
   background: #0094c7;
 }
 
@@ -210,9 +208,6 @@ nav {
 }
 
 #todo-list li button:last-of-type:hover {
-  border: none;
-  padding: 6px 10px;
-  border-radius: 6px;
   background: #ff6b85;
 }
 
@@ -220,7 +215,6 @@ nav {
 #todo-list li button + button {
   margin-left: 6px;
 }
-
 
 #todo-list button:hover {
   background: #ff6b85;
@@ -232,7 +226,7 @@ nav {
   width: 100%;
   padding: 8px;
   margin: 8px 0;
-  background: #bbbbbb;
+  background: #eeeeee;
   border: 1px solid #444;
   border-radius: 6px;
   color: #000000;
@@ -253,19 +247,23 @@ nav {
 }
 
 #edit-date-0 {
-  background: #bbbbbb;
+  background: #eeeeee;
   color: #000000;
 }
 
-/* ---------- MENU ---------- */
+/*-----------------menu--------------*/
 .menu-container {
     max-width: 700px;
     margin: 25px auto;
 }
 
+.toggle-label {
+  margin-left: 10px;
+  padding: 18px;
+}
+
 .menu-login button {
   background: #00bfa6;
-  margin-left: 10px;
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
@@ -287,23 +285,21 @@ nav {
   cursor: pointer;
 }
 
-.menu-logout button:hover {
+.menu-logout button :hover {
   background: #ff6b85;
 }
 
-.toggle-label {
-  margin-left: 10px;
-  padding: 18px;
-}
-
 .card {
-    background: #1a1a1a;
+    background: #ffffff;
+    padding: 18px;
     border-radius: 10px;
     margin-bottom: 18px;
     margin-left: 10px;
     padding: 18px;
     text-align: left;
+    border: 1px solid #ccc;
 }
+
 #tip_ul {
   margin-left: 10px;
   padding: 18px;
@@ -321,29 +317,31 @@ nav {
 
 .nav-card {
     flex: 1;
-    background: #222;
+    background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     text-decoration: none;
-    color: #00ffcc;
+    color: #00bfa6;
     font-size: 1.1rem;
+    border: 1px solid #ccc;
 }
+
 #clear-all {
-  border: none;
-  padding: 6px 10px;
-  border-radius: 6px;
-  background: #ff6b85;
-  margin-left: 6px;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: #ff6b85;
+    margin-left: 6px;
 }
 
 /* ---------- FORM ---------- */
 form {
-  background: #1a1a1a;
+  background: #fff;
   padding: 20px;
   border-radius: 12px;
   width: 100%;
   max-width: 500px;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
 }
 
 label {
@@ -357,38 +355,38 @@ input[type="password"],
 input[type="date"] {
   width: 100%;
   padding: 10px;
-  background: #2b2b2b;
-  border: 1px solid #444;
+  background: #f6f6f6;
+  border: 1px solid #bbb;
   border-radius: 6px;
-  color: white;
+  color: #000;
 }
 
 input[type="submit"] {
   margin-top: 15px;
   width: 100%;
   padding: 12px;
-  background: #00ffcc;
-  color: #000;
+  background: #00bfa6;
+  color: #fff;
   border: none;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background: #00c8a0;
+  background: #009e8c;
 }
 
 /* ---------- ERROR & SUCCESS ---------- */
 .error {
-  background: #ff4d6d;
+  background: #ff6b81;
   padding: 8px;
   border-radius: 6px;
-  color: #fff;
+  color: white;
   margin-top: 5px;
 }
 
 .success {
-  background: #00ff99;
+  background: #75ffb0;
   padding: 10px;
   border-radius: 6px;
   color: #000;
@@ -396,17 +394,16 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-
 /* ---------- FOOTER ---------- */
 .footer {
     width: 100%;
-    text-align: center;
+    text-align: bottom;
     padding: 14px 0;
     margin-top: 35px;
-    color: #bbbbbb;
+    color: #444444;
     font-size: 0.9rem;
-    background: #111;
-    border-top: 1px solid #333;
+    background: #e6e6e6;
+    border-top: 1px solid #cccccc;
 }
 
 

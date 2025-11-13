@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Todo</title>
     <link id="theme-style" rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+    <header>
         <h1>To-do</h1>
-        <p>Manage your daily tasks • Hover to see details • Click to edit</p>
-
-    <nav>
-        <ul id="nav_bar">
-            <li id="nav_li"><a class="active" href="index.html">Daily</a></li>
-            <li id="nav_li"><a href="weekly.html">Weekly</a></li>
-            <li id="nav_li"><a href="monthly.html">Monthly</a></li>
-            <li id="nav_li"><a href="yearly.html">New Year Resolution</a></li>
-            <li id="nav_li"><a href="menu.php">Menu</a></li>
-        </ul>
-    </nav>
-</header>
-
-<!-- Task Controls -->
+        <p>Plan your week efficiently • Hover to see details • Click to edit</p>
+        
+        <nav>
+            <ul id="nav_bar">
+                <li id="nav_li"><a href="index.html">Daily</a></li>
+                <li id="nav_li"><a class="active" href="weekly.html">Weekly</a></li>
+                <li id="nav_li"><a href="monthly.html">Monthly</a></li>
+                <li id="nav_li"><a href="yearly.html">New Year Resolution</a></li>
+                <li id="nav_li"><a href="menu.php">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Task Controls -->
 <section id="task-controls">
     <button id="open-form-btn">+ Add Task</button>
     <button id="sort-date-btn">Sort by Date</button>
@@ -45,8 +44,7 @@
     </div>
 </section>
 
-<!-- Task List -->
-<h2>Today's Tasks</h2>
+<h2>Weekly To-Do list</h2>
 <ul id="todo-list"></ul>
 
 <script>
@@ -59,7 +57,8 @@
         themeLink.href = "style.css";
     }
 </script>
-
 <script src="script.js"></script>
+
+
 </body>
 </html>
