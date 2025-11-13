@@ -94,7 +94,19 @@ mini-project/
 ---
 
 ## 🖼️ Screenshots
-(Add images here if required)
+![creating_new_task_](todo-list\assets\creating_new_task_dark.png)
+![creating_new_task_](todo-list\assets\creating_new_task_light.png)
+![deleting_a_task_](todo-list\assets\deleting_a_task_dark.png)
+![deleting_a_task_](todo-list\assets\deleting_a_task_dark.png)
+![deleting_all-task_](todo-list\assets\deleting_all-task_light.png)
+![login_dark_](todo-list\assets\login_dark.png)
+![menu_dark_page_](todo-list\assets\menu_dark_page-0001.jpg)
+![menu_light_page_](todo-list\assets\menu_light_page-0001.jpg)
+![registersation_dark](todo-list\assets\registersation_dark.png)
+![registersation_light](todo-list\assets\registration_light.png)
+![todo_list_dark](todo-list\assets\todo_list_dark.png)
+![todo_list_dark](todo-list\assets\todo_list_light.png)
+![wditing_task_light](todo-list\asset\wditing_task_light.png)
 
 ---
 
