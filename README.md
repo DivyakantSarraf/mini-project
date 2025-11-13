@@ -93,7 +93,7 @@ mini-project/
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots-
 ![creating_new_task_](todo-list\assets\creating_new_task_dark.png)
 ![creating_new_task_](todo-list\assets\creating_new_task_light.png)
 ![deleting_a_task_](todo-list\assets\deleting_a_task_dark.png)
