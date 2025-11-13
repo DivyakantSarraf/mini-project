@@ -89,7 +89,9 @@ mini-project/
 ├── logout.php
 │
 ├── style.css
-└── light.css
+├── light.css
+│
+└── assets/
 
 ---
 
