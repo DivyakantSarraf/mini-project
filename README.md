@@ -147,7 +147,7 @@ This mini-project demonstrates the following Web Technology concepts:
 ## 👨‍💻 Author
 
 - **Name:** Divyakant  
-- **GitHub Username:** *(Add your username here)*  
+- **GitHub Username:** *DivyakantSarraf*  
 
 ---
 
