@@ -18,9 +18,8 @@ session_start();
 <header>
     <h1>To-do</h1>
     <p>Menu</p>
-</header>
 
-<nav>
+    <nav>
     <ul id="nav_bar">
         <li><a href="index.html">Daily</a></li>
         <li><a href="weekly.html">Weekly</a></li>
@@ -28,7 +27,8 @@ session_start();
         <li><a href="yearly.html">Yearly</a></li>
         <li><a class="active" href="menu.php">Menu</a></li>
     </ul>
-</nav>
+    </nav>
+</header>
 
 <div class="menu-container">
 
