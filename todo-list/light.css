@@ -8,8 +8,8 @@
 
 /* ---------- PAGE ---------- */
 body {
-  background: #f2f2f2;           /* light background */
-  color: #000000;                /* dark text */
+  background: #f2f2f2; /* light background */
+  color: #000000; /* dark text */
   min-height: 100vh;
   padding: 20px 10px;
   display: flex;
@@ -31,17 +31,17 @@ header fieldset {
 
 header h1 {
   font-size: 2rem;
-  color: #00bfa6;               /* lighter teal */
+  color: #00bfa6; /* lighter teal */
 }
 
 h2 {
   padding: 10px;
-  color: #000000;               /* dark text */
+  color: #000000; /* dark text */
 }
 
 header p {
   font-size: 1.2rem;
-  color: #555555;               /* softer gray */
+  color: #555555; /* softer gray */
 }
 
 /* ---------- NAVBAR (FULL WIDTH) ---------- */
@@ -57,8 +57,8 @@ nav {
   max-width: 1000px;
   list-style: none;
   display: flex;
-  background: #dddddd;           /* light nav background */
-  border-radius: 12px;   
+  background: #dddddd; /* light nav background */
+  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -70,18 +70,18 @@ nav {
   display: block;
   text-align: center;
   padding: 14px 0;
-  color: #000000;               /* dark nav text */
+  color: #000000; /* dark nav text */
   text-decoration: none;
   font-size: 1rem;
   transition: 0.2s;
 }
 
 #nav_bar a:hover {
-  background: #cccccc;          /* lighter hover */
+  background: #cccccc; /* lighter hover */
 }
 
 #nav_bar a.active {
-  background: #00bfa6;          /* light theme active */
+  background: #00bfa6; /* light theme active */
   color: #ffffff;
   font-weight: 600;
 }
@@ -97,7 +97,7 @@ nav {
   padding: 10px 18px;
   border: none;
   border-radius: 6px;
-  background: #00bfa6;           /* teal */
+  background: #00bfa6; /* teal */
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
@@ -110,7 +110,7 @@ nav {
 /* ---------- ADD TASK FORM ---------- */
 #task-form {
   width: 320px;
-  background: #ffffff;           /* white card */
+  background: #ffffff; /* white card */
   padding: 15px;
   border-radius: 8px;
   margin-top: 15px;
@@ -121,7 +121,7 @@ nav {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
-  background: #eeeeee;           /* light input */
+  background: #eeeeee; /* light input */
   border: 1px solid #aaaaaa;
   border-radius: 6px;
   color: #000000;
@@ -150,7 +150,7 @@ nav {
   width: 100%;
   max-width: 450px;
   margin-top: 25px;
-  background: #ffffff;           /* white list */
+  background: #ffffff; /* white list */
   border-radius: 10px;
   overflow: hidden;
 }
@@ -192,7 +192,7 @@ nav {
   border: none;
   padding: 6px 10px;
   border-radius: 6px;
-  background: #00c8ff;          /* blue */
+  background: #00c8ff; /* blue */
 }
 
 #todo-list li button:first-of-type:hover {
@@ -253,8 +253,8 @@ nav {
 
 /*-----------------menu--------------*/
 .menu-container {
-    max-width: 700px;
-    margin: 25px auto;
+  max-width: 700px;
+  margin: 25px auto;
 }
 
 .toggle-label {
@@ -272,7 +272,7 @@ nav {
 }
 
 .menu-login button:hover {
-  background: #009e8c;   /* slightly darker */
+  background: #009e8c; /* slightly darker */
 }
 
 .menu-logout button {
@@ -290,14 +290,14 @@ nav {
 }
 
 .card {
-    background: #ffffff;
-    padding: 18px;
-    border-radius: 10px;
-    margin-bottom: 18px;
-    margin-left: 10px;
-    padding: 18px;
-    text-align: left;
-    border: 1px solid #ccc;
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+  padding: 18px;
+  text-align: left;
+  border: 1px solid #ccc;
 }
 
 #tip_ul {
@@ -311,27 +311,27 @@ nav {
 }
 
 .nav-cards {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .nav-card {
-    flex: 1;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #00bfa6;
-    font-size: 1.1rem;
-    border: 1px solid #ccc;
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #00bfa6;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
 }
 
 #clear-all {
-    border: none;
-    padding: 6px 10px;
-    border-radius: 6px;
-    background: #ff6b85;
-    margin-left: 6px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #ff6b85;
+  margin-left: 6px;
 }
 
 /* ---------- FORM ---------- */
@@ -396,20 +396,26 @@ input[type="submit"]:hover {
 
 /* ---------- FOOTER ---------- */
 .footer {
-    width: 100%;
-    text-align: bottom;
-    padding: 14px 0;
-    margin-top: 35px;
-    color: #444444;
-    font-size: 0.9rem;
-    background: #e6e6e6;
-    border-top: 1px solid #cccccc;
+  width: 100%;
+  text-align: bottom;
+  padding: 14px 0;
+  margin-top: 35px;
+  color: #444444;
+  font-size: 0.9rem;
+  background: #e6e6e6;
+  border-top: 1px solid #cccccc;
 }
-
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 480px) {
-  #nav_bar a { font-size: 0.9rem; padding: 12px 0; }
-  #todo-list { max-width: 95%; }
-  #task-form { width: 95%; }
+  #nav_bar a {
+    font-size: 0.9rem;
+    padding: 12px 0;
+  }
+  #todo-list {
+    max-width: 95%;
+  }
+  #task-form {
+    width: 95%;
+  }
 }
